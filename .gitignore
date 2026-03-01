@@ -1,0 +1,67 @@
+# Archivos de configuración local
+paths.yml
+**/paths.yml
+
+# Carpetas de IDE
+.claude/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# Datos sensibles
+data/raw/*
+!data/raw/.gitkeep
+data/temp/*
+!data/temp/.gitkeep
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
