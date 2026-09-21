@@ -52,11 +52,15 @@ venv.bak/
 .RData
 .Ruserdata
 
-# Datos sensibles
-data/raw/*
-!data/raw/.gitkeep
-data/temp/*
-!data/temp/.gitkeep
+# ── Datos del MGN ───────────────────────────────────────────
+# Si vuelves a bajar los originales del DANE (9.5 GB), ponlos aqui:
+# https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/datos-geoestadisticos/
+datos/raw/
+
+# Mapas generados: son reproducibles corriendo los ejemplos
+outputs/figures/*
+!outputs/figures/.gitkeep
+
 
 # Sistema operativo
 .DS_Store
